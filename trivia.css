@@ -1,0 +1,70 @@
+.button {
+    background-color: rgb(0, 0, 107);
+    border-radius: 12px;
+    box-shadow: gray;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: Garamond;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    position: static;
+    margin-left: 2%;
+  }
+
+  .button:hover{
+    background: rgb(252, 156, 172);
+}
+
+  body{
+    text-align: center;
+    background-color: rgb(153, 204, 204);
+    font-size: 25px;
+    font-family: Garamond;
+    font-weight: bold;
+  }
+
+  input{
+    font-size: 20px;
+    font-family: Garamond;
+  }
+
+  .goodjob, .nextTime{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    animation-name: photos;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes photos{
+      50%{
+       top: 50%;
+       left: 50%;
+       margin-top: -50px;
+       margin-left: -100px;
+       width: 200px;
+       height: 200px;
+      }
+      100%{
+        top: 100%;
+        left: 100%;
+      }
+  }
+
+  #goodLuck{
+    /* margin-top: 1%;
+    margin-bottom: 1%; */
+    animation-name: goodLuck;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes goodLuck{
+    50%{
+      border-radius: 50%;
+    }
+  }
+  
